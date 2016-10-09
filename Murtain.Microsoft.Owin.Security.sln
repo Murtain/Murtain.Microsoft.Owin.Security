@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Security.Tencent.Wechat", "Microsoft.Owin.Security.Tencent.Wechat\Microsoft.Owin.Security.Tencent.Wechat.csproj", "{B854278A-CAE3-4153-809B-967CA97B6016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Security.Tencent.QQ", "Microsoft.Owin.Security.Tencent.QQ\Microsoft.Owin.Security.Tencent.QQ.csproj", "{A155BACB-AB9C-4F0C-AC6B-7BE6AFC48481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NuGet", ".NuGet", "{7FE70EF0-CD0B-4D9C-AD8E-9EDDF3B9491A}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet\nuget.exe = NuGet\nuget.exe
+		NuGet\pack.bat = NuGet\pack.bat
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Security.Sina.Weibo", "Microsoft.Owin.Security.Sina.Weibo\Microsoft.Owin.Security.Sina.Weibo.csproj", "{53E24571-FDF0-405C-85F8-236BBF1E8021}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B854278A-CAE3-4153-809B-967CA97B6016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B854278A-CAE3-4153-809B-967CA97B6016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B854278A-CAE3-4153-809B-967CA97B6016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B854278A-CAE3-4153-809B-967CA97B6016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A155BACB-AB9C-4F0C-AC6B-7BE6AFC48481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A155BACB-AB9C-4F0C-AC6B-7BE6AFC48481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A155BACB-AB9C-4F0C-AC6B-7BE6AFC48481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A155BACB-AB9C-4F0C-AC6B-7BE6AFC48481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E24571-FDF0-405C-85F8-236BBF1E8021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E24571-FDF0-405C-85F8-236BBF1E8021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E24571-FDF0-405C-85F8-236BBF1E8021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E24571-FDF0-405C-85F8-236BBF1E8021}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
